@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Liara.Common/Liara.Common.csproj" />
+  <Project Path="Liara.Integrations/Liara.Integrations.csproj" />
+</Solution>

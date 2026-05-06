@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Liara Common</Title>
+    <SignAssembly>False</SignAssembly>
+    <Authors>Illium Codeworks</Authors>
+    <Company>Illium Codeworks</Company>
+    <Copyright>Erick Badillo Rangel</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <FileVersion>6.0.0.0</FileVersion>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageIcon></PackageIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<IncludeReferencedProjects>true</IncludeReferencedProjects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Http\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Illium-Logo-Nugets.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="LICENSE">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
